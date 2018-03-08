@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var userGuessField: UITextField!
+    
+    
     var randomNumber = Int(arc4random_uniform(100))
     
     
@@ -32,6 +35,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    @IBAction func guessButtonPressed(_ sender: Any) {
+    }
+    
 }
 
