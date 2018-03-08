@@ -45,7 +45,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="guessButtonPressed" destination="SCL-Fn-s90" id="A9F-y2-n0C"/>
                         <outlet property="userGuessField" destination="SXq-Fb-Y0f" id="CvN-j6-D78"/>
                     </connections>
                 </viewController>
